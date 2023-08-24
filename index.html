@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+  </div>
+  
+  <div class="buttons">
+    <div class="button-row">
+      <button onclick="changeColorAndBorder('box1')">Change Box 1</button>
+      <button onclick="changeColorAndBorder('box2')">Change Box 2</button>
+      <button onclick="changeColorAndBorder('box3')">Change Box 3</button>
+      <button onclick="changeAllColors()">Change All</button>
+    </div>
+    
+    <div class="button-row">
+      <button onclick="hideBox('box1')">Hide Box 1</button>
+      <button onclick="hideBox('box2')">Hide Box 2</button>
+      <button onclick="hideBox('box3')">Hide Box 3</button>
+      <button onclick="hideAllBoxes()">Hide All</button>
+    </div>
+    
+    <div class="button-row">
+      <button onclick="resetColors()">Reset Colors</button>
+      <button onclick="showAllBoxes()">Show All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

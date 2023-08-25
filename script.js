@@ -1,3 +1,15 @@
+resetColors();
+
+function resetColors() {
+  const boxes = document.querySelectorAll('.box');
+  boxes[0].style.backgroundColor = 'red';
+  boxes[0].style.border = '2px solid black';
+  boxes[1].style.backgroundColor = 'blue';
+  boxes[1].style.border = '2px dashed yellow';
+  boxes[2].style.backgroundColor = 'green';
+  boxes[2].style.border = '2px solid purple';
+}
+
 function changeColorAndBorder(boxId) {
   const box = document.getElementById(boxId);
   box.style.backgroundColor = getRandomColor();
@@ -24,15 +36,7 @@ function hideAllBoxes() {
   });
 }
 
-function resetColors() {
-  const boxes = document.querySelectorAll('.box');
-  boxes[0].style.backgroundColor = 'red';
-  boxes[0].style.border = '2px solid black';
-  boxes[1].style.backgroundColor = 'blue';
-  boxes[1].style.border = '2px dashed yellow';
-  boxes[2].style.backgroundColor = 'green';
-  boxes[2].style.border = '2px solid purple';
-}
+
 
 function showAllBoxes() {
   const boxes = document.querySelectorAll('.box');

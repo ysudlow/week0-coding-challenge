@@ -40,6 +40,13 @@
   margin-bottom: 10px; /* Add spacing between button rows */
   max-width: 400px; /* Adjust the width to match the boxes */
 }
+.box-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; /* Make the button rows extend the full width */
+  margin-bottom: 10px; /* Add spacing between button rows */
+  max-width: 400px; /* Adjust the width to match the boxes */
+}
 
 
 

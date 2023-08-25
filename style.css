@@ -12,11 +12,11 @@
   border: 2px solid black;
 }
 
-#box1 {
+.box1 {
   background-color: red;
 }
 
-#box2 {
+.box2 {
   background-color: blue;
   border: dashed yellow;
 }

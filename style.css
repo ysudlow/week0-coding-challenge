@@ -21,7 +21,7 @@
   border: dashed yellow;
 }
 
-#box3 {
+.box3 {
   background-color: green;
   border: solid purple;
 }

@@ -1,4 +1,3 @@
-resetColors();
 
 function resetColors() {
   const boxes = document.querySelectorAll('.box');

@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  justify-content: column; /* Center the boxes horizontally */
+  justify-content: center; /* Center the boxes horizontally */
   align-items: center; /* Center the boxes vertically */
 }
 
